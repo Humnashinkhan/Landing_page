@@ -1,0 +1,36 @@
+.Resources{
+    background-color: rgb(255, 240, 250);
+    display: grid;
+    flex-direction: column;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.Resources .itemBox{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(10rem, 1fr));
+}
+.Resources .itemBox .Item1 p{
+      font-size: 1rem;
+      padding: 1rem;
+      line-height: 1.5;
+      padding-top: 10em;
+      text-align: center;
+      padding-right: 2em;
+}
+.Resources .itemBox .Item1 h1{
+    font-size: 2rem;
+    color: black;
+    padding: 1rem;
+}
+.Resources .itemBox .Item1 a{
+    font-size: 1rem;
+    display: block;
+    color: var(--light-color);
+    padding: 1rem;
+    text-decoration: none;
+}
+.Resources .Credit{
+    text-align: center;
+    font-size: 1rem;
+    color: blueviolet;
+}

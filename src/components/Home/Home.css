@@ -1,0 +1,73 @@
+.Home{
+    Width: 100%;
+    height: 70%;
+    background-color: #001540;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    padding-top: 5em;
+}
+.containtBox{
+    width: 40%;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+.containtBox h1{
+    font-size: 2.5rem;
+    color: aliceblue;
+
+}
+.containtBox h1 span{
+    color: purple;
+}
+.containtBox h2{
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+.containtBox h2 span{
+    color: purple;
+}
+.containtBox h3{
+    font-size: 1rem;
+    color: aliceblue;
+    font-style: italic;
+    margin: 3em 0;
+}
+.containtBox h3 span{
+    color: purple;
+    background-color: #f1f17c;
+    padding: 0px 10px 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 2px;
+}
+.containtBox h4{
+    font-size: 2.5rem;
+    color: aliceblue;
+    padding-top: 2em;
+}
+ 
+.containtBox p{
+    font-size: 1rem;
+    color: aliceblue;
+    margin: 1em 0;
+    padding-top: 1em;
+    font-style: normal;
+}
+.nav-btn {
+    background-color: #5757c5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-top: 3em;
+  }
+  .containtBox a{
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+
+  }
